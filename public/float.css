@@ -1,0 +1,315 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(120deg, white, red, blue);
+    background: url("ocean2.jpg");
+   /* background: white;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Staatliches', cursive;
+    display: grid;
+    position: absolute;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgb(0, 119, 230) 0%, rgb(0, 44, 85) 50%, rgb(0, 119, 230) 100%);
+
+  
+}
+
+h1{
+    margin: auto;
+    font-size: 5rem;
+    color: rgb(0, 119, 230);
+    text-shadow: 0.1rem 0.1rem 0.1rem black;;  
+    border: solid black 5px;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px black);
+    background: white;
+    padding: 30px;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fullcon{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    filter: drop-shadow(10px 20px 5px rgb(0, 0, 0));   
+    background: linear-gradient(90deg, rgba(0, 134, 223, 0.884) 0%, rgba(98, 192, 255, 0.274) 50%, rgba(0, 153, 255, 0.274) 100%) ;
+    z-index: 1;
+}
+
+.imgs{
+    width: 30rem;
+}
+
+.ocon{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 4rem;
+    margin-bottom: 4rem; 
+}
+
+.headerimg{
+    height: 2.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1.5rem;
+}
+
+.title{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+    text-shadow: 1px 1px rgb(1, 155, 226);
+}
+
+
+.titlemiddle{
+   position: absolute;
+   display: grid;
+   height: 5rem;
+   width: 100%;
+  
+   
+}
+
+h2{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 1px rgb(1, 155, 226);
+}
+
+.titleimg{
+    height: 5rem;
+    filter:drop-shadow(1px 1px 1px black);
+    margin: auto;
+}
+
+.wavebar{
+    position: fixed;
+    display: flex;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.waveshadow{
+    position:fixed;
+    border-bottom: solid black 0.25rem;
+    top: 5rem;
+ 
+    width: 100%;
+    filter: drop-shadow(0rem -0.1rem 0.1rem black);
+    z-index: 3;
+}
+
+
+.waveshadow2{
+    position:fixed;
+    border-bottom: solid black 3px;
+    bottom: 5rem;
+    height: 1rem;
+    width: 100%;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem black);
+    z-index: 3;
+}
+
+
+.wavebar2{
+    position: fixed;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-top: 5px solid black;
+    z-index: 2;
+}
+
+.pcon{   
+    width: fit-content;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: grid;
+    margin: auto;
+    
+    margin-bottom: 7.5rem;
+    grid-template-columns: 1fr;
+}
+
+#postformfield{
+    background: white;
+    padding: 1.5rem;
+    width: 35rem;
+
+
+    margin-top: 10rem;
+  
+    border-radius: 10px;
+    border: rgb(0, 0, 0) 5px solid;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0));
+    margin-bottom: 0rem;
+}
+
+#postform{
+    display: grid;
+}
+
+.nameandtitle{
+    display: flex;
+    align-items: center;
+ 
+ 
+   
+}
+
+#postform label{
+  font-size: 1.25rem;
+   
+  font-family: 'Staatliches', cursive;
+  width: fit-content;
+}
+#postform input{
+    min-width: 4rem;
+    max-width: 10rem;
+    border: solid black 0.1rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-family: 'Staatliches', cursive;
+}
+
+#textareacomment{
+    resize: vertical;
+    height: 5rem;
+    margin-bottom: 1rem;
+    border: solid black 0.1rem;
+    border-radius: 10px;
+    font-family: 'Staatliches', cursive;
+ 
+}
+
+
+.writeform{
+    margin: auto;
+   
+    border: rgb(0, 0, 0) 5px solid;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0));
+    background: white;
+    border-radius: 20px;
+    
+    margin-top: 5rem;
+    
+    height: fit-content;
+    width: 35rem;
+    padding: 1.5rem;
+}
+
+.posttitle{
+    font-size: 4rem;
+    margin: 0;
+   text-align: center;
+  
+    text-shadow: 2px 1px rgb(1, 155, 226);
+}
+
+.postp{
+    margin: 0;
+    border: solid black 0.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0.15rem 0.15rem 0.15rem black);
+    background: white;
+    
+}
+
+.commentfield{
+    background: white;
+    margin: auto;
+    margin-top: 0px;
+    
+    border-radius: 20px;
+    padding: 1.5rem;
+    width: 75%;
+    border: rgb(0, 0, 0) 2.5px solid;
+   
+}
+
+.commentform{
+ padding-right: 1.5rem;
+}
+
+.comment{
+   
+    font-family: 'Staatliches', cursive;
+    
+   width: 100%;
+    border: solid black 0.1rem;
+  
+    padding: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0.15rem 0.15rem 0.15rem black);
+    background: white;
+}
+
+.posta{
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.combutton{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Staatliches', cursive;
+    margin-top: 1.5rem;
+    margin: auto;
+    background: rgb(1, 155, 226);
+    border-radius: 5px;
+    border-color: green;
+    color: rgb(255, 255, 255);
+}
+
+.one{
+    margin: 1.5rem;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#loginbtn{
+   width: fit-content;
+   height: fit-content;
+   font-family: 'Staatliches', cursive;
+   align-self:center;
+   justify-self:flex-end;
+   margin-left: auto;
+   margin-right: 1.5rem;
+   background: rgb(1, 155, 226);
+   border-radius: 5px;
+   border-color: green;
+   color: rgb(255, 255, 255);
+   z-index: 3;
+}
